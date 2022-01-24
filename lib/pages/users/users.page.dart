@@ -52,6 +52,8 @@ class _UsersPageState extends State<UsersPage> {
       }
     });
   }
+
+
   @override
   Widget build(BuildContext context) {
     print("Building page ....");
@@ -59,6 +61,7 @@ class _UsersPageState extends State<UsersPage> {
       appBar: AppBar(title: Text('Users => ${query} => $currentPage / $totalPages'),),
       body: Center(
         child: Column(
+
           children: [
             Row(
               children: [
